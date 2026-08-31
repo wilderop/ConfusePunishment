@@ -1,0 +1,13 @@
+name: ConfusePunishment
+version: 1.0
+main: com.example.ConfusePlugin
+api-version: 1.21
+commands:
+  confuse:
+    description: Applies the confuse punishment to a player.
+    usage: /confuse <player>
+    permission: confuse.use
+permissions:
+  confuse.use:
+    description: Allows use of the confuse command.
+    default: op
